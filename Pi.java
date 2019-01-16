@@ -4,7 +4,7 @@ public class Pi {
     */
 
     public static void main(String[] args) {
-        int numTries = Integer.parseInt(args[0]);
+        int numTries = 1000;
         int in = 0;
         int total;
         for (total = 1; total <= numTries; total++) {
